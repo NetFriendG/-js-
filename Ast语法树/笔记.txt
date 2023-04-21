@@ -1,0 +1,14 @@
+作用： 解混淆
+
+其实就是代码的一个反编译过程
+
+javascript ==> ast ==> javascript
+
+@babel/parser 把代码编译成语法树
+@babel/traverse  对语法树进行操作  比如解混淆
+
+
+
+
+
+
