@@ -1,0 +1,23 @@
+echo "# -js-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NetFriendG/-js-.git
+git push -u origin main
+
+
+git remote add origin https://github.com/NetFriendG/-js-.git
+git branch -M main
+git push -u origin main
+
+
+git 设置代理
+
+# 配置socks5代理
+git config --global http.proxy socks5 127.0.0.1:7890
+git config --global https.proxy socks5 127.0.0.1:7890
+
+# 配置http代理
+git config --global http.proxy 127.0.0.1:7890
+git config --global https.proxy 127.0.0.1:7890
